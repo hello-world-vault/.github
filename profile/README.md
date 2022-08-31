@@ -1,4 +1,4 @@
-# Hello World: Vault
+![Hello World: Vault](cover.png)
 
 Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resources can be applied to other Kubernetes distributions though some will require modifications to run outside of OpenShift.
 
