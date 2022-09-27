@@ -20,12 +20,15 @@ Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resourc
 
 ### Sync Secrets to OpenShift
 
+- [external-secrets-custom-ca]
+	- Use External Secrets Operator against a secret store using a TLS certificate signed by a custom certificate authority (CA)
 - [external-secrets-operator-example]
 	- Example code to integrate Hashicorp Vault and OpenShift GitOps (Argo CD) to deploy secrets from Vault to an OpenShift cluster using External Secrets Operator.
 - [argocd-vault-plugin-example]
 	- Example code to integrate Hashicorp Vault and OpenShift GitOps (Argo CD) to deploy secrets from Vault to an OpenShift cluster using the argocd-vault-plugin.
 
 [argocd-vault-plugin-example]: https://github.com/hello-openshift-vault/argo-vault-plugin-example
+[external-secrets-custom-ca]: https://github.com/hello-openshift-vault/external-secrets-custom-ca
 [external-secrets-operator-example]: https://github.com/hello-openshift-vault/external-secrets-operator-example
 [vault-in-cluster-config]: https://github.com/hello-openshift-vault/vault-in-cluster-config
 [vault-init]: https://github.com/hello-openshift-vault/vault-init
