@@ -1,4 +1,4 @@
-![Hello World: Vault](https://raw.githubusercontent.com/hello-world-vault/.github/main/profile/cover.png)
+![Hello OpenShift: Vault](https://raw.githubusercontent.com/hello-openshift-vault/.github/main/profile/cover.png)
 
 Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resources can be applied to other Kubernetes distributions though some will require modifications to run outside of OpenShift.
 
@@ -25,8 +25,8 @@ Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resourc
 - [argocd-vault-plugin-example]
 	- Example code to integrate Hashicorp Vault and OpenShift GitOps (Argo CD) to deploy secrets from Vault to an OpenShift cluster using the argocd-vault-plugin.
 
-[argocd-vault-plugin-example]: https://github.com/hello-world-vault/argo-vault-plugin-example
-[external-secrets-operator-example]: https://github.com/hello-world-vault/external-secrets-operator-example
-[vault-in-cluster-config]: https://github.com/hello-world-vault/vault-in-cluster-config
-[vault-init]: https://github.com/hello-world-vault/vault-init
-[vault-role-namespace-sync]: https://github.com/hello-world-vault/vault-role-namespace-sync
+[argocd-vault-plugin-example]: https://github.com/hello-openshift-vault/argo-vault-plugin-example
+[external-secrets-operator-example]: https://github.com/hello-openshift-vault/external-secrets-operator-example
+[vault-in-cluster-config]: https://github.com/hello-openshift-vault/vault-in-cluster-config
+[vault-init]: https://github.com/hello-openshift-vault/vault-init
+[vault-role-namespace-sync]: https://github.com/hello-openshift-vault/vault-role-namespace-sync
