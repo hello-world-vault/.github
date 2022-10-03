@@ -70,7 +70,7 @@ sequenceDiagram
     User->>Vault: Attempts to log in with k8s issued JWT
     Vault->>K8s: Checks if the JWT is valid
     K8s->>Vault: Responds that JWT is valid
-    Vault->>User: Issues Vault token for subsequent requests
+    Vault->>User: Issues short-lived Vault token<br />for subsequent requests
 ```
 
 [Auto-Unseal]: https://learn.hashicorp.com/collections/vault/auto-unseal
