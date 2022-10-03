@@ -56,10 +56,12 @@ Applications pulling secrets from Vault need to use another authentication metho
 ### Kubernetes Authentication
 
 Vault provides the *Kubernetes Authentication* method that delegates authentication to Kubernetes.
-Kubernetes Users and Service Accounts are assigned a unique [JWT] that is used to authenticate to the Kubernetes API.
-To access Vault, Kubernetes Users and Service Accounts use that same JWT for authentication.
-Vault then passes the JWT directly to the Kubernetes API for validation.
-If the JWT is valid, the user or service account is logged into Vault and given a temporary token for subsequent Vault API requests.
+This is how it works:
+
+* Kubernetes Users and Service Accounts are assigned a unique [JWT] that is used to authenticate to the Kubernetes API.
+* To access Vault, Kubernetes Users and Service Accounts use the same JWT for authentication.
+* Vault passes the JWT directly to the Kubernetes API for validation.
+* If the JWT is valid, the user or service account is logged into Vault and given a temporary token for subsequent Vault API requests.
 
 ```mermaid
 sequenceDiagram
