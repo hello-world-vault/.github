@@ -63,7 +63,7 @@ If the JWT is valid, the user or service account is logged into Vault and given 
 
 ```mermaid
 sequenceDiagram
-    participant User as Kubernetes User/Service Account
+    participant User as Kubernetes User<br />or Service Account
     participant Vault
     participant K8s as Kubernetes API
 
