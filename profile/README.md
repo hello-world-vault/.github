@@ -2,6 +2,8 @@
 
 Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resources can be applied to other Kubernetes distributions though some will require modifications to run outside of OpenShift.
 
+Check out [Vault 101] for a quick intro to Vault terms and concepts.
+
 ## Repositories
 
 ### Initialize Vault
@@ -33,3 +35,4 @@ Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resourc
 [vault-in-cluster-config]: https://github.com/hello-openshift-vault/vault-in-cluster-config
 [vault-init]: https://github.com/hello-openshift-vault/vault-init
 [vault-role-namespace-sync]: https://github.com/hello-openshift-vault/vault-role-namespace-sync
+[Vault 101]: https://github.com/openshift-vault-integration/.github/blob/main/vault-101.md
