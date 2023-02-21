@@ -1,4 +1,4 @@
-![Hello OpenShift: Vault](https://raw.githubusercontent.com/hello-openshift-vault/.github/main/profile/cover.png)
+# OpenShift (Hashicorp) Vault Integration
 
 Resources to get started with Hashicorp Vault on Red Hat OpenShift. Most resources can be applied to other Kubernetes distributions though some will require modifications to run outside of OpenShift.
 
